@@ -52,7 +52,7 @@ pages = [
 ]
 
 # Сохраняем в CSV
-csv_path = "/mnt/data/pages_list.csv"
+csv_path = "pages_list.csv"
 with open(csv_path, "w", newline='', encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["Название", "Тип", "URL"])
