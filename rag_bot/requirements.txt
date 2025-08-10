@@ -1,0 +1,6 @@
+pymorphy3>=1.2.0
+pathlib
+typing
+faiss-cpu
+sentence-transformers
+llama-cpp-python 

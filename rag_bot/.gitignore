@@ -1,0 +1,49 @@
+# Model files (too large for git)
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# FAISS index files
+# *.index
+# faiss.index
+
+# Metadata and pickle files
+# *.pkl
+# metadatas.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter notebooks
+*.ipynb
+
+# Environment variables
+.env
+.env.local
